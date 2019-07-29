@@ -1,0 +1,62 @@
+defaults: &defaults
+  working_directory: /go/src/github.com/duckpuppy/algolia-hugo
+  docker:
+    - image: circleci/golang:1.10
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          key: gopkg-{{ .Branch }}-{{ checksum "Gopkg.lock" }}
+          paths:
+            - /go/src/github.com/duckuppy/algolia-hugo/vendor
+      - run:
+          name: Install Tools
+          command: |
+            go get github.com/jstemmer/go-junit-report
+            go get github.com/magefile/mage
+            curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+      - run:
+          name: Test
+          command: |
+            mage check
+      - persist_to_workspace:
+          root: .
+          paths: .
+      - save_cache:
+          key: gopkg-{{ .Branch }}-{{ checksum "Gopkg.lock" }}
+          paths:
+            - /go/src/github.com/duckpuppy/algolia-hugo/vendor
+      - store_artifacts:
+          path: coverage.html
+          destination: coverage
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /go/src/github.com/duckpuppy/algolia-hugo
+      - run:
+          name: release
+          command: |
+            go get github.com/goreleaser/goreleaser
+            goreleaser
+workflows:
+  version: 2
+  build-project:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /.*/
+      - release:
+          requires:
+            - build
+          context: org-global
+          filters:
+            tags:
+              only: /^v.*$/
+            branches:
+              ignore: /.*/

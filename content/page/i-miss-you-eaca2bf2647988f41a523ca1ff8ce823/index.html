@@ -1,0 +1,40 @@
+---
+date: 2018-02-08T11:23:05Z
+description: 
+draft: false
+resources: 
+- src: /bruno_and_soumaya/IMG_3874.jpg
+  name: "header"
+slug:
+stories:
+subtitle: 
+tags: 
+  - Personal
+title: "I Miss You"
+options:
+  unlisted: true
+---
+
+<a href="https://fieldcircus.hopto.org:3007/soumaya/">Soumaya's Remote</a>
+
+<img src="/bruno_and_soumaya/IMG_3874.jpg" alt="Bruno and Soumaya">
+
+<script>
+    function tripwire(params){
+
+        var url = 'https://fieldcircus.hopto.org:3007/telegram/message/' + encodeURIComponent(params) + '/77c4c6b0a85aa28e3a32042f86ff54d0' ;
+
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = function() { 
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                callback(xmlHttp.responseText);
+        }
+        xmlHttp.open("GET", url, true); // true for asynchronous 
+        xmlHttp.send(null);
+
+    };
+document.addEventListener("DOMContentLoaded", function(event) { 
+  //do work
+  tripwire('Good News Bruno, she misses you :)');
+});
+</script>

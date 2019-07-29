@@ -1,0 +1,65 @@
+{{ define "bodyclasses" }}section-list _default/section.html post-list post-list-html contentgrouptype-{{ .Section }} contentgroupname-{{ .CurrentSection.Title | urlize }}{{ end }}
+{{ define "description" }}
+	{{ if $.Page.Params.subtitle }}
+	<meta name="description" content="{{ $.Page.Params.subtitle }}" />
+	<meta name="twitter:description" content="{{ $.Page.Params.subtitle }}"/>        
+	{{ else if $.Page.Params.description }}
+	<meta name="description" content="{{ .Params.description }}" />
+	<meta name="twitter:description" content="{{ .Params.description }}"/>
+	{{ end }}
+{{ end }}
+{{ define "main" }}
+<div class="wrapper">
+	{{ if ne $.Params.options.header nil  }}
+		{{ $header := (printf "header-%s" .Params.options.header ) }}
+		{{ partial $header . }}
+	{{ else }}
+		{{ partial "header-small.html" . }}        
+	{{ end }}
+
+	<div class="section">
+		<div class="container">
+			<a name="content"></a>
+			<section id="category-list" class="card-group">
+					<div class="row">
+					{{ $list := "none" }}
+						{{ if eq .Params.options.unlisted true }}
+							{{ $list = (where (where .Data.Pages ".Params.options.unlisted" true) "Section" "!=" "instagram") }}
+						{{ else }}
+							{{ $list = (where (where .Data.Pages ".Params.options.unlisted" false) "Section" "!=" "instagram") }}
+						{{ end }}
+
+						{{ with .Sections }}
+							{{ $stories := where . ".Params.options.unlisted" false }}
+							{{ range $stories }} 
+								{{ .Scratch.Set "columns" (len $stories) }}
+								{{ partial "story-card.html" . }}
+							{{ end }}                               
+						{{ end }}
+
+						{{ if eq .Section "story" }}
+							<div class="col-12">{{ .Content }}</div>
+						{{ end }}
+
+						{{ if eq .Section "post" }}
+							{{ range (.Paginate (where (where .Site.RegularPages ".Params.options.unlisted" false) "Section" "!=" "instagram") 9).Pages }}
+								{{ .Render "summary" }}
+							{{ end }}
+						{{ else }}
+						{{ range (.Paginate $list 9).Pages }}
+							{{ .Render "summary" }}
+						{{ end }}
+						{{ end }}
+
+						{{ partial "pagination.html" . }}
+					</div>
+			</section>
+			<div class="separator separator-primary"></div>
+		</div>
+	</div>
+</div>
+{{ end }}
+
+{{ define "list-javascript" }}
+	{{ partial "comments-js.html" . }}
+{{ end }}

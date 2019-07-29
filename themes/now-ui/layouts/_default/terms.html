@@ -1,0 +1,31 @@
+{{ define "bodyclasses" }} terms contentgrouptype-terms contentgroupname-the-stories article-title-subhomepage {{ end }}
+
+{{ define "description" }}
+	{{ partial "description.html" . }}
+{{ end }}
+{{ define "main" }}
+<div class="wrapper">
+	{{ partial "header-small.html" . }}
+	<div class="section">
+		<div class="container">
+
+					<section id="taxonomy {{ .Data.Plural }}">
+						<article class="">
+
+							<ul class="{{ .Data.Plural }}">{{ $data := .Data }}
+								{{ range $key, $value := .Data.Terms }}
+								{{ if ne $key "" }}
+								<li><a href="{{ $key }}" title="{{ i18n "posts_categorized_as" }} {{ $key | humanize | title }}">{{ $key | humanize | title }}</a> ({{ len $value }})</li>										
+								{{ end }}
+								{{ end }}
+							</ul>
+
+						</article>
+					</section>
+
+			<div class="separator separator-primary"></div>
+		</div>
+	</div>
+  </div>
+
+{{ end }}

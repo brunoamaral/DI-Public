@@ -1,0 +1,8 @@
+.animate {
+  opacity: 0;
+
+  &.nowui-visible {
+  	transform: translateX(0);
+    opacity: 1;
+	}
+}

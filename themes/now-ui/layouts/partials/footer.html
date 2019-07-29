@@ -1,0 +1,20 @@
+<footer class="footer footer-white footer-big d-print-none">
+	<div class="container">
+		<ul class="social-buttons">
+			{{ $author := .Site.GetPage (printf $.Site.Params.defaultAuthor ) }}
+			{{ with $author.Params.profiles }}
+			{{ $map := (index . ) }}
+				{{ range $key, $val := $map }}
+				<li>
+					<a href="{{ $val }}" title="{{ $.Site.Title }} on {{ $key }}" class="btn btn-icon btn-neutral btn-{{ printf $key }} btn-lg">
+						<i class="fab fa-{{ printf $key }}"></i>
+					</a>
+				</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+		<div class="copyright pull-center">
+			Copyright © {{ now.Format "2006"}}&copy; {{ $.Site.Params.author }} | <a href="/page/privacy-policy/">Privacy Policy</a>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,129 @@
+baseurl = "https://brunoamaral.eu/"
+copyright = "Bruno Amaral 2019"
+disqusShortname = "brunoamaral-eu"
+enableGitInfo = true
+googleAnalytics = ""
+languageCode = "en-us"
+publishdir = "/var/www/brunoamaral.eu"
+pygmentsCodefences=true
+pygmentsOptions=""
+pygmentsStyle="monokai"
+pygmentsUseClasses=true
+rssLimit = 30
+theme = ["now-ui", "reveal-hugo"]
+timeout=20000
+title = "Digital Insanity Magazine"
+
+[params]
+defaultAuthor = "/authors/bruno-amaral/_index.html"
+defaultImage = "https://brunoamaral.eu/images/fractal_thumb.jpg"
+googleSiteVerification = ""
+googleTagManager = ""
+headerPhoto = "/static/homepage/ales-nesetril-Im7lZjxeLhg-unsplash.jpg"
+logo = "/static/logo_blue_small.png"
+subtitle = "The Creative Escape of Bruno Amaral"
+summary = ""
+
+[params.apis]
+googlemaps = ""
+
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.speakerDeck]
+    disable = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+  [privacy.vimeo]
+    disable = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+
+[mediaTypes]
+[mediaTypes."application/json"]
+suffixes = ["json"]
+
+[outputs]
+	home = [ "HTML", "RSS", "JSON" ]
+	section = [ "HTML", "RSS"]
+	taxonomy = [ "HTML", "RSS"]
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[permalinks]
+	post = "/post/:slug/"
+  story = "/:sections/:slug"
+[sitemap]
+	changefreq = "weekly"
+	priority = 0.5
+	filename = "sitemap.xml"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+  author = "authors"
+
+[social]
+	facebook_admin = ""
+	facebook_app_id = ""
+
+DefaultContentLanguage = "en"
+
+[Languages]
+
+[Languages.en]
+weight = 1
+LanguageName = "English"
+
+[Languages.en.params]
+algoliaapikey = ""
+algoliaappid = ""
+algoliaindex = "brunoamaral.eu"
+description = "A creative escape by Bruno Amaral. Articles, blogposts, and projects relating to Digital Culture, Marketing and Technology."
+subtitle = "The creative escape of Bruno Amaral"
+
+[Languages.pt]
+weight = 2
+LanguageName = "Portuguese"
+subtitle = "Contos de uma mente hiperactiva"
+description = "A fuga criativa de Bruno Amaral. Artigos, projectos, e escrita em torno de Cultura Digital, Marketing e Tecnologia"
+
+
+
+
+[imaging]
+# See https://github.com/disintegration/imaging
+# Imaging supports image resizing using various resampling filters. The most notable ones:
+
+# NearestNeighbor - Fastest resampling filter, no antialiasing.
+# Box - Simple and fast averaging filter appropriate for downscaling. When upscaling it's similar to NearestNeighbor.
+# Linear - Bilinear filter, smooth and reasonably fast.
+# MitchellNetravali - А smooth bicubic filter.
+# CatmullRom - A sharp bicubic filter.
+# Gaussian - Blurring filter that uses gaussian function, useful for noise removal.
+# Lanczos - High-quality resampling filter for photographic images yielding sharp results, but it's slower than cubic filters.
+resampleFilter = "NearestNeighbor"
+
+# Defatult JPEG quality setting. Default is 75.
+quality = 85
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"

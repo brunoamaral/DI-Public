@@ -1,0 +1,8 @@
+---
+options:
+  unlisted: false
+---
+This is a Brave Payments publisher verification file.
+
+Domain: brunoamaral.eu
+Token: 6a7ea2b03a20bf07c2486b78f821d4a0409e3bdc6ef2833f7a01682daf109280

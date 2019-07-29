@@ -1,0 +1,1804 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Langu",
+				"LanguageName"
+			],
+			[
+				"ali",
+				"align-content-around \tBootstrap 4 Class"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"mt",
+				"mt-5 \tBootstrap 4 Class"
+			],
+			[
+				"col-",
+				"col-sm \tBootstrap 4 Class"
+			],
+			[
+				"dae",
+				"dated_dir"
+			],
+			[
+				"date",
+				"dated_dir"
+			],
+			[
+				"proje",
+				"project"
+			],
+			[
+				"for",
+				"forin\tfor … in … done"
+			],
+			[
+				"float",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"block",
+				"block\thugo-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"exit",
+				"exit_animation"
+			],
+			[
+				"entry",
+				"entry_animation"
+			],
+			[
+				"time",
+				"timeOnScreen"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"b4",
+				"b4:template:album\talbum"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"elemen",
+				"element_id"
+			],
+			[
+				"video",
+				"videoId"
+			],
+			[
+				"side",
+				"sideNotes"
+			],
+			[
+				"play",
+				"player"
+			],
+			[
+				"get",
+				"getCurrentTime"
+			],
+			[
+				"new",
+				"newclass"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"boot",
+				"bootstrap-youtube\tbootstrap-youtube"
+			],
+			[
+				"im",
+				"img-thumbnail \tBootstrap 4 Class"
+			],
+			[
+				"d-print",
+				"d-print-none \tBootstrap 4 Class"
+			],
+			[
+				"text-ca",
+				"text-uppercase \tBootstrap 4 Class"
+			],
+			[
+				"text-",
+				"text-dark \tBootstrap 4 Class"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"vi",
+				"viewportBottom"
+			],
+			[
+				"btn",
+				"btn-outline-light \tBootstrap 4 Class"
+			],
+			[
+				"btn-p",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"boottr",
+				"bootstrap-iframe\tbootstrap-iframe"
+			],
+			[
+				"ads",
+				"advertising"
+			],
+			[
+				"button",
+				"b4:button:a\ta"
+			],
+			[
+				"Hand",
+				"Handsome-Boy-Modeling-School"
+			],
+			[
+				"bloc",
+				"b4:blockquote\tblockquote"
+			],
+			[
+				"suppo",
+				"supported"
+			],
+			[
+				"twitter",
+				"twitterImage"
+			],
+			[
+				"aut",
+				"author"
+			],
+			[
+				"element",
+				"elementBottom"
+			],
+			[
+				"custom",
+				"customJs"
+			],
+			[
+				"ios",
+				"ios-push-container"
+			],
+			[
+				"histó",
+				"História"
+			],
+			[
+				"blo",
+				"blockquote \tBootstrap 4 Class"
+			],
+			[
+				"header",
+				"headerphoto"
+			],
+			[
+				"page-",
+				"page-header-image"
+			],
+			[
+				"foo",
+				"footer-default"
+			],
+			[
+				"Alg",
+				"Algorithm"
+			],
+			[
+				"Ikea",
+				"IKEA"
+			],
+			[
+				"al",
+				"align-self-center"
+			],
+			[
+				"toxi",
+				"toxiclibsjs"
+			],
+			[
+				"velo",
+				"velocity"
+			],
+			[
+				"vl",
+				"velocity-animate"
+			],
+			[
+				"v",
+				"velocity-animate"
+			],
+			[
+				"ve",
+				"Velocity"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"bs",
+				"bs\tthumbnails"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"bacn",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"lef",
+				"leftElements"
+			],
+			[
+				"righ",
+				"rightElements"
+			],
+			[
+				"slide",
+				"slideRightIn"
+			],
+			[
+				"media",
+				"media-body"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"isN",
+				"isAnimating"
+			],
+			[
+				"is",
+				"isAnimating"
+			],
+			[
+				"col",
+				"collapse"
+			],
+			[
+				"off",
+				"offcanvas-collapse"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"contain",
+				"Container"
+			],
+			[
+				"nav",
+				"navbar-nav"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"nav-",
+				"nav-item"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"posts_",
+				"posts_categorizes_as"
+			],
+			[
+				"pos",
+				"postslug"
+			],
+			[
+				"posts",
+				"postslug"
+			],
+			[
+				"post",
+				"posttitle"
+			],
+			[
+				"con",
+				"Congressos"
+			],
+			[
+				"Anita",
+				"Anita7Oficios"
+			],
+			[
+				"autho",
+				"authors"
+			],
+			[
+				"seti",
+				"setItem"
+			],
+			[
+				"rando",
+				"randomNumber"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"paddn",
+				"padding-left"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"url",
+				"urlize"
+			],
+			[
+				"title",
+				"Title"
+			],
+			[
+				"story",
+				"story_title"
+			],
+			[
+				"at",
+				"article"
+			],
+			[
+				"colum-",
+				"column-count"
+			],
+			[
+				"st",
+				"story"
+			],
+			[
+				"com",
+				"commit_message"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"gall",
+				"gallery"
+			],
+			[
+				"unli",
+				"Unlikely"
+			],
+			[
+				"adbo",
+				"adobe-spark"
+			],
+			[
+				"mom",
+				"momentum-dash"
+			],
+			[
+				"ubl",
+				"ublock"
+			],
+			[
+				"sle",
+				"sleepcycle"
+			],
+			[
+				"i",
+				"ixpenseit"
+			],
+			[
+				"all",
+				"allposts"
+			],
+			[
+				"CLie",
+				"ClientID"
+			],
+			[
+				"cl",
+				"ClientSecret"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 210.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"add cu",
+				"Git: Add Current File"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrawp",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ss mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss config",
+				"Set Syntax: Generic Config"
+			],
+			[
+				"ss confi",
+				"Set Syntax: Generic Config"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"s",
+				"Sort Lines"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"Title",
+				"Convert Case: Title Case"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"prety",
+				"HTMLPrettify"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"SORT",
+				"Sort Lines"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"emm",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"WRAP",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"emmet ",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"emme",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"emmew",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ss conf",
+				"Set Syntax: Git Config"
+			],
+			[
+				"prettt",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"emmet",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrao",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ss rege",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"PRETTY",
+				"HTMLPrettify"
+			],
+			[
+				"ss mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ssm",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"mate",
+				"Material Theme: Configuration"
+			],
+			[
+				"material the",
+				"Material Theme: Activate theme"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"em",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"ss bas",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				"ss m",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"ssh ",
+				"Set Syntax: HTML"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emmet wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"uniqu",
+				"Permute Lines: Unique"
+			],
+			[
+				"conver",
+				"Convert Case: Title Case"
+			],
+			[
+				"convert",
+				"Convert Case: Lower Case"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"link",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"rege",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"unique",
+				"Permute Lines: Unique"
+			],
+			[
+				"ss markd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ss y",
+				"Set Syntax: YAML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"bas",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"conc",
+				"Convert Case: Title Case"
+			],
+			[
+				"title ca",
+				"Convert Case: Title Case"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"so",
+				"Sort Lines"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"change ",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown ed chan",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"change",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"markd",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"ss markdown ed",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"mark ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdown ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"hugo om",
+				"Snippet: hugo-comment"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ss h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss s",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"ss ",
+				"Set Syntax: Sass"
+			],
+			[
+				"ss sas",
+				"Set Syntax: SAS"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sss",
+				"Set Syntax: Sass"
+			],
+			[
+				"ss sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"ss scs",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"loer",
+				"Convert Case: Lower Case"
+			],
+			[
+				"WORD",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssh bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss md",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"hugo ",
+				"Hugofy : Version"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"mater",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"mini",
+				"Minify::Default File Settings"
+			],
+			[
+				"add",
+				"VW Address Field"
+			],
+			[
+				"vw",
+				"VW Fields Macro"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/brunoamaral/Labs/Digital-Insanity",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default"
+	],
+	"file_history":
+	[
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default/profile.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/partials/header-small.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default/single.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default/page.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/page/support/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/layouts/json/single.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/.gitignore",
+		"/Users/brunoamaral/Desktop/Secure guitarrasaoalto.duck",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-03-15/index.md",
+		"/private/var/folders/xb/7x2qm97153q23rhtss8tmvwm0000gn/T/e0be4cee-9ec8-47bb-8280-10d7c5425d70/etc/nginx/sites-available/labs.brunoamaral.eu",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-03-14/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-03-13/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/evento/filme-cartas-a-uma-ditadura/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/evento/lancamento-de-coimbra-da-coleccao-a-minha-cidade-editada-pelo-pato-logico/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/themes/abrilnofeminino/layouts/_default/minimal-card.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/evento/sarah-vaughan-the-divine-one/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/evento/janis-little-girl-blue/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/evento/violeta-foi-para-o-ceu/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default/baseof.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/index.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/assets/scss/now-ui-kit/_variables.scss",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/encontro-com-rita-carmo/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/cravos-e-outras-flores/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/minimal-card-no-img.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/single.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/mulheres-incríveis/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/violeta-foi-para-o-ceu/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/sarah-vaughan-the-divine-one/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/janis-little-girl-blue/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/minimal-card.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/mulheres-na-arquitectura/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/10-mulheres-que-marcaram-a-vida-de-jesus/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/mulheres-viajantes/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/sobre-nos/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/bertrand/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Museu-Nacional-de-Machado-de-Castro/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/contactos/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/apoios/index.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Baixa-de-Coimbra-Ruas-Ferreira-Borges-e-Visconde-da-Luz/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/filme-cartas-a-uma-ditadura/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/lancamento-de-coimbra-da-coleccao-a-minha-cidade-editada-pelo-pato-logico/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/pela-mao-de-judite/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Teatro-da-Cerca-de-São-Bernardo/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/partials/language-icons.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/post/2017-01-05-algorithms-and-us/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-03-10/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/partials/footer.html",
+		"/private/var/folders/xb/7x2qm97153q23rhtss8tmvwm0000gn/T/e0be4cee-9ec8-47bb-8280-10d7c5425d70/etc/nginx/sites-available/abrilnofeminino.pt",
+		"/Users/brunoamaral/Labs/Digital-Insanity/subscribe.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/crypto/_index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/page/search/index.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/assets/scss/custom/custom.scss",
+		"/Users/brunoamaral/Desktop/livebands_portugal.csv",
+		"/Users/brunoamaral/Desktop/livebands_espanha.csv",
+		"/Users/brunoamaral/Desktop/livebands_brasil.csv",
+		"/Users/brunoamaral/Desktop/teste.html",
+		"/Users/brunoamaral/Desktop/_EDP webcast.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/ciclo-como-elas-cantam/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/index.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/partials/header.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/programa/index.md",
+		"/Users/brunoamaral/Desktop/university-challenge-links.md",
+		"/Users/brunoamaral/.zshrc",
+		"/Users/brunoamaral/.zprofile",
+		"/Users/brunoamaral/.oh-my-zsh/oh-my-zsh.sh",
+		"/Users/brunoamaral/.oh-my-zsh/custom/functions.zsh",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/card-inner.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/tres-mulheres-singulares-a-matrona-a-rainha-e-a-pintora/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/num-milionesimo-de-segundo/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/assets/sass/libs/_vars.scss",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/assets/sass/base/_typography.scss",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/archetypes/default.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/public/search/index.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/12-mulheres-12-vozes/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/partials/footer.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/partials/header-full.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/themes/now-ui/layouts/_default/page-header.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/crypto/crypto_07/index.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-27/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-05/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-02/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-28/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-03-01/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-26/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-21/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-20/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-19/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-07/index.md",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-06/index.md",
+		"/Users/brunoamaral/Library/Application Support/abnerworks.Typora/themes/pixyll.css",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/summary.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/list.html",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/simple-things/todo",
+		"/Users/brunoamaral/Desktop/EDP infografia CPI/en.html",
+		"/Users/brunoamaral/Desktop/EDP infografia CPI/es.html",
+		"/Users/brunoamaral/Desktop/EDP infografia CPI/pt.html",
+		"/Users/brunoamaral/Desktop/archive.sh",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/resources/_gen/assets/scss/sass/main.scss_de1a7f5f1c8c46959803c429bb697ff0.content",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/mulheres-na-ciencia/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/ciclo-de-conversas/index.md",
+		"/Users/brunoamaral/Downloads/Wayne - S01E02 - No Priests WEBDL-720p (1).mkv.crdownload",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/evento/lancamento-de-livro/index.md",
+		"/Users/brunoamaral/Desktop/apoios-white.svg",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/partials/head.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/_default/baseof.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/assets/sass/custom.scss",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/subscrever/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/page/subscrever/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/content/page/subscrever/index.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/_index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Escola-Básica-de-Solum-Sul/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Salão-Brazil/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Seminário-Maior-de-Coimbra/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Galeria-de-Santa-Clara/index.md",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/local/Casa-da-Escrita/index.md",
+		"/Users/brunoamaral/Desktop/Logos-Apoios-01.svg",
+		"/Users/brunoamaral/Desktop/_archive.sh",
+		"/Users/brunoamaral/Labs/Digital-Insanity/content/story/homework-for-life/2019-02-22/index.md",
+		"/Users/brunoamaral/Downloads/IMG_9436.JPG",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/themes/abrilnofeminino/layouts/noticias/list.html",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/noticias/dia-1/index.md",
+		"/Users/brunoamaral/Desktop/LogosFinaisANF.xml",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/{}",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/Logos-Apoios-01.svg",
+		"/Users/brunoamaral/Desktop/{}",
+		"/Users/brunoamaral/Labs/abrilnofeminino/website/content/page/apoios/index.md",
+		"/Users/brunoamaral/Desktop/_infografia-sustentabilidade/infografia-es.html",
+		"/Users/brunoamaral/Desktop/infografia-pt_pt.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-md-10 ml-auto mr-auto",
+			"- ",
+			"ftp.guitarrasaoalto.pt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "digital-insanity.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"support",
+				"content/page/support/index.md"
+			],
+			[
+				"single.",
+				"layouts/json/single.html"
+			],
+			[
+				"violeta",
+				"content/evento/violeta-foi-para-o-ceu/index.md"
+			],
+			[
+				"janis",
+				"content/evento/janis-little-girl-blue/index.md"
+			],
+			[
+				"sarah",
+				"content/evento/sarah-vaughan-the-divine-one/index.md"
+			],
+			[
+				"encon",
+				"content/evento/encontro-com-rita-carmo/index.md"
+			],
+			[
+				"sing",
+				"themes/abrilnofeminino/layouts/_default/single.html"
+			],
+			[
+				"bertran",
+				"content/local/bertrand/index.md"
+			],
+			[
+				"algorithm",
+				"content/post/2017-01-05-algorithms-and-us/index.md"
+			],
+			[
+				"base",
+				"themes/now-ui/layouts/_default/baseof.html"
+			],
+			[
+				"langu",
+				"themes/now-ui/layouts/partials/language-icons.html"
+			],
+			[
+				"page.html",
+				"themes/now-ui/layouts/_default/page.html"
+			],
+			[
+				"single",
+				"themes/now-ui/layouts/_default/single.html"
+			],
+			[
+				"baseof",
+				"themes/now-ui/layouts/_default/baseof.html"
+			],
+			[
+				"page-header",
+				"themes/now-ui/layouts/_default/page-header.html"
+			],
+			[
+				"subs",
+				"subscribe.md"
+			],
+			[
+				"custom.scs",
+				"themes/now-ui/assets/scss/custom/custom.scss"
+			],
+			[
+				"crypto_in",
+				"content/story/crypto/_index.md"
+			],
+			[
+				"search/",
+				"content/page/search/index.html"
+			],
+			[
+				"viol",
+				"content/evento/violeta-foi-para-o-ceu/index.md"
+			],
+			[
+				"sa",
+				"content/evento/sarah-vaughan-the-divine-one/index.md"
+			],
+			[
+				"como elas",
+				"content/evento/ciclo-como-elas-cantam/index.md"
+			],
+			[
+				"apoios",
+				"content/page/apoios/index.html"
+			],
+			[
+				"ditadu",
+				"content/evento/filme-cartas-a-uma-ditadura/index.md"
+			],
+			[
+				"programa",
+				"content/page/programa/index.md"
+			],
+			[
+				"cravo",
+				"content/evento/cravos-e-outras-flores/index.md"
+			],
+			[
+				"encontro com ri",
+				"content/evento/encontro-com-rita-carmo/index.md"
+			],
+			[
+				"cartas",
+				"content/evento/filme-cartas-a-uma-ditadura/index.md"
+			],
+			[
+				"index.html",
+				"themes/abrilnofeminino/layouts/index.html"
+			],
+			[
+				"mulheres incríveis",
+				"content/evento/mulheres-incríveis/index.md"
+			],
+			[
+				"ditadura",
+				"content/evento/filme-cartas-a-uma-ditadura/index.md"
+			],
+			[
+				"matrona",
+				"content/evento/tres-mulheres-singulares-a-matrona-a-rainha-e-a-pintora/index.md"
+			],
+			[
+				"mulheres vi",
+				"content/evento/mulheres-viajantes/index.md"
+			],
+			[
+				"milion",
+				"content/evento/num-milionesimo-de-segundo/index.md"
+			],
+			[
+				"single.h",
+				"themes/abrilnofeminino/layouts/_default/single.html"
+			],
+			[
+				"crypto_",
+				"content/story/crypto/_index.md"
+			],
+			[
+				"header",
+				"themes/now-ui/layouts/partials/header-full.html"
+			],
+			[
+				"search/in",
+				"content/page/search/index.html"
+			],
+			[
+				"search/index.",
+				"public/search/index.html"
+			],
+			[
+				"incri",
+				"content/evento/mulheres-incríveis/index.md"
+			],
+			[
+				"filme",
+				"content/evento/filme-cartas-a-uma-ditadura/index.md"
+			],
+			[
+				"singulares",
+				"content/evento/tres-mulheres-singulares-a-matrona-a-rainha-e-a-pintora/index.md"
+			],
+			[
+				"coimbra",
+				"content/evento/lancamento-de-coimbra-da-coleccao-a-minha-cidade-editada-pelo-pato-logico/index.md"
+			],
+			[
+				"judite",
+				"content/evento/pela-mao-de-judite/index.md"
+			],
+			[
+				"encontro",
+				"content/evento/encontro-com-rita-carmo/index.md"
+			],
+			[
+				"vozes",
+				"content/evento/12-mulheres-12-vozes/index.md"
+			],
+			[
+				"arqu",
+				"content/evento/mulheres-na-arquitectura/index.md"
+			],
+			[
+				"marcara",
+				"content/evento/10-mulheres-que-marcaram-a-vida-de-jesus/index.md"
+			],
+			[
+				"viajan",
+				"content/evento/mulheres-viajantes/index.md"
+			],
+			[
+				"mulheres",
+				"content/evento/mulheres-na-ciencia/index.md"
+			],
+			[
+				"footer",
+				"themes/abrilnofeminino/layouts/partials/footer.html"
+			],
+			[
+				"milio",
+				"content/evento/num-milionesimo-de-segundo/index.md"
+			],
+			[
+				"full header",
+				"themes/now-ui/layouts/partials/header-full.html"
+			],
+			[
+				"single.html",
+				"themes/abrilnofeminino/layouts/_default/single.html"
+			],
+			[
+				"viole",
+				"content/evento/violeta-foi-para-o-ceu/index.md"
+			],
+			[
+				"list.",
+				"themes/abrilnofeminino/layouts/_default/list.html"
+			],
+			[
+				"ciencia",
+				"content/evento/mulheres-na-ciencia/index.md"
+			],
+			[
+				"subsce",
+				"content/page/subscrever/index.md"
+			],
+			[
+				"apoios in",
+				"content/page/apoios/index.html"
+			],
+			[
+				"APOIOS/IN",
+				"content/page/apoios/index.html"
+			],
+			[
+				"custom.",
+				"themes/abrilnofeminino/assets/sass/custom.scss"
+			],
+			[
+				"head",
+				"themes/abrilnofeminino/layouts/partials/head.html"
+			],
+			[
+				"list.html",
+				"themes/abrilnofeminino/layouts/_default/list.html"
+			],
+			[
+				"violet",
+				"content/evento/violeta-foi-para-o-ceu/index.md"
+			],
+			[
+				"12 mu",
+				"content/evento/12-mulheres-12-vozes/index.md"
+			],
+			[
+				"config",
+				"config.toml"
+			],
+			[
+				"pela",
+				"content/evento/pela-mao-de-judite/index.md"
+			],
+			[
+				"get_he",
+				"themes/abrilnofeminino/layouts/partials/get_header.html"
+			],
+			[
+				"header.",
+				"website/themes/abrilnofeminino/layouts/partials/header.html"
+			],
+			[
+				"get_",
+				"website/themes/abrilnofeminino/layouts/partials/get_header.html"
+			],
+			[
+				"head.",
+				"website/themes/abrilnofeminino/layouts/partials/head.html"
+			],
+			[
+				"onde-quando",
+				"content/post/2019-02-08-entrevista-para-o-onde-quando-e-como-eu-quiser/index.pt.html"
+			],
+			[
+				"onde",
+				"content/post/2019-02-08-entrevista-para-o-onde-quando-e-como-eu-quiser/Bruno Amaral _ Onde Quando e Como eu Quiser-WN97tCgDQ3I.m4a"
+			],
+			[
+				"custom.css",
+				"themes/now-ui/assets/scss/custom/custom.scss"
+			],
+			[
+				"twitter",
+				"post/2019-01-04-twitterchatpt/index.pt.md"
+			],
+			[
+				"pagination",
+				"themes/now-ui/layouts/partials/pagination.html"
+			],
+			[
+				"pagina",
+				"themes/light/layouts/partials/pagination.html"
+			],
+			[
+				"duelos",
+				"post/2006-01-24-um-blog-a-serio-com-duelos-digitais-e-outras-historias/index.pt.md"
+			],
+			[
+				"comite",
+				"post/2006-02-05-comite-olimpico-lanca-novo-site/index.pt.md"
+			],
+			[
+				"new direct",
+				"post/2009-11-04-a-new-direction/index.pt.md"
+			],
+			[
+				"AS VEZES QUE ",
+				"post/2006-02-18-as-vezes-que-eu-ja-precisei-deste-site/index.pt.md"
+			],
+			[
+				"precisei deste site",
+				"content/post/2006-02-18-as-vezes-que-eu-ja-precisei-deste-site/index.pt.md"
+			],
+			[
+				"anonimato online",
+				"content/post/2006-02-17-o-anonimato-online/index.pt.md"
+			],
+			[
+				"web search made easy",
+				"content/post/2006-02-14-web-search-made-easy/index.pt.md"
+			],
+			[
+				"comite olimpico",
+				"content/post/2006-02-05-comite-olimpico-lanca-novo-site/index.pt.md"
+			],
+			[
+				"rss readers index md",
+				"content/post/2006-01-31-rss-readers/index.pt.md"
+			],
+			[
+				"duelos digitais e ",
+				"content/post/2006-01-24-um-blog-a-serio-com-duelos-digitais-e-outras-historias/index.pt.md"
+			],
+			[
+				"window live mess",
+				"content/post/2005-12-28-windows-live-messenger/index.pt.md"
+			],
+			[
+				"mais tuna index.md",
+				"content/post/2005-11-30-mais-tuna/index.pt.md"
+			],
+			[
+				"a tuna e fixe index",
+				"content/post/2005-11-19-a-tuna-e-fixe/index.pt.md"
+			],
+			[
+				"novo layout ainda ",
+				"content/post/2005-10-22-novo-layout-ainda-nao/index.pt.md"
+			],
+			[
+				"novo layout",
+				"public/novo-layout-ainda-nao/index.html"
+			],
+			[
+				"coisas que nun",
+				"content/post/2005-10-09-coisas-que-nunca-mudam/index.pt.md"
+			],
+			[
+				"hello world 2",
+				"content/post/2005-09-08-hello-world-2/index.pt.md"
+			],
+			[
+				"world 2",
+				"public/hello-world-2/index.html"
+			],
+			[
+				"storytelling adver",
+				"content/post/2018-12-06-storytelling-advertising/index.md"
+			],
+			[
+				"storytelling-adver",
+				"content/post/2018-12-06-storytelling-advertising/index.md"
+			],
+			[
+				"support index",
+				"content/page/support/index.md"
+			],
+			[
+				"config.toml",
+				"config.toml"
+			],
+			[
+				"search.js",
+				"content/page/search/search.js"
+			],
+			[
+				"search index",
+				"content/page/search/index.html"
+			],
+			[
+				"search/index",
+				"public/search/index.html"
+			],
+			[
+				"blogosfera de comunica",
+				"2007-11-18-a-blogosfera-de-comunicacao/index.pt.md"
+			],
+			[
+				"geek",
+				"2007-10-29-o-geek-29/index.pt.md"
+			],
+			[
+				"anonimato on",
+				"2006-02-17-o-anonimato-online/index.pt.md"
+			],
+			[
+				"contact inde",
+				"content/page/contact/index.html"
+			],
+			[
+				"_default single",
+				"themes/now-ui/layouts/_default/single.html"
+			],
+			[
+				"_default single.html",
+				"themes/now-ui/layouts/_default/single.html"
+			],
+			[
+				"header image",
+				"themes/now-ui/layouts/partials/header-image.html"
+			],
+			[
+				"instagram single.html",
+				"themes/now-ui/layouts/instagram/single.html"
+			],
+			[
+				"how technol",
+				"content/post/2010-11-09-how-technology-impacts-pr-and-how-we-can-respond/index.md"
+			],
+			[
+				"spark _ind",
+				"content/story/spark-2018/_index.md"
+			],
+			[
+				"lessons from goig ",
+				"content/story/spark-2018/2018-11-14-lessons-from-going-live-around-the-world/index.md"
+			],
+			[
+				"spark _in",
+				"content/story/spark-2018/_index.md"
+			],
+			[
+				"header small",
+				"themes/now-ui/layouts/partials/header-small.html"
+			],
+			[
+				"section.html",
+				"themes/now-ui/layouts/_default/section.html"
+			],
+			[
+				"crypto _index",
+				"content/story/crypto/_index.md"
+			],
+			[
+				"simple-things",
+				"content/story/simple-things/_index.md"
+			],
+			[
+				"spark _inde",
+				"content/story/spark-2018/_index.md"
+			],
+			[
+				"spark _index",
+				"content/story/spark-2018/_index.md"
+			],
+			[
+				"archives index",
+				"content/page/archives/index.md"
+			],
+			[
+				"comfort zone be",
+				"content/story/a-country-of-emigrants-and-a-world-of-stories/2013-10-22-my-comfort-zone-became-too-uncomfortable/index.md"
+			],
+			[
+				"the-author",
+				"content/page/the-author/index.pt.html"
+			],
+			[
+				"header sma",
+				"themes/now-ui/layouts/partials/header-small.html"
+			],
+			[
+				"elements index",
+				"content/page/elements/index.md"
+			],
+			[
+				"contact index",
+				"content/page/contact/index.html"
+			],
+			[
+				"instagram _inde",
+				"content/instagram/_index.md"
+			],
+			[
+				"archives inde",
+				"content/page/archives/index.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

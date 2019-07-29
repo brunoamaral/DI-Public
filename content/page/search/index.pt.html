@@ -1,0 +1,54 @@
+---
+date: 2018-11-13T12:57:38Z
+description: 
+draft: false
+resources: 
+- src: images/annie-theby-414571-unsplash.jpg
+  name: "header"
+- src: "gallery/*.jpg"
+  name: gallery-:counter
+  title: gallery-title-:counter
+slug: 
+stories:
+subtitle: 
+tags: 
+  - 
+categories: 
+  - 
+title: "You Still Haven't Found What You're Looking For"
+url: /pt/pesquisar
+layout: page-header
+options:
+  unlisted: false
+  showHeader: true
+  hideSubscribeForm: true
+  hideFooter: true
+
+menu:
+ main:
+  Name: '<img src="/search/images/Antu_edit-find-mail-by-FabianAlexis.svg" alt="pesquisar" class="search-icon" />'
+  Weight: 10
+  post: "Quem acredita sempre alcança"
+  Identifier: "search-icon"
+
+scripts:
+  - '<script src="instantsearch.js/dist/instantsearch.min.js"></script>'
+  - '<script src="search.js"></script>'
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="search" class="search">
+                <form>
+                    <div class="form-group"></div>
+                </form>
+                    <div class="search-content"></div><!-- /search-content -->
+            </div><!-- /search -->
+            <div class="card-columns">
+              <div class="search-hits d-flex "></div>
+            </div>
+        </div>
+    </div>
+    <p class="small">Pesquisa providenciada por <a href="https://algolia.com">Algolia</a> e copyright da fotografia pertencente a <a href="https://unsplash.com/@annietheby?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Annie Theby">Annie Theby</a> </p>
+</div>

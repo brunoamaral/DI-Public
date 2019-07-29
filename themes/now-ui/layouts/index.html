@@ -1,0 +1,136 @@
+{{ define "bodyclasses" }}root{{ end }}
+{{ define "description" }}
+	<meta name="description" content="{{ $.Site.Params.description }}" />
+	<meta name="twitter:description" content="{{ $.Site.Params.description }}"/>
+{{ end }}
+{{ define "main" }}
+<div class="wrapper">
+	<div class="page-header">
+		<div class="page-header-image" data-parallax="true" style="background-image: url('{{ $.Site.Params.headerPhoto }}'); transform: translate3d(0px, 0px, 0px);"></div>
+		<div class="container">
+			<div class="content-center brand">
+			<img class="n-logo" src="{{ $.Site.Params.logo }}" alt="Logo for {{ .Site.Title }}">
+			<h1 class="h1-seo title">{{ block "title" . }}{{ .Site.Title }}{{ end }}</h1>
+			<h5 class="description">{{ block "subtitle" . }}{{ $.Site.Params.subtitle }}{{ end }}</h5>
+			{{ $author := .Site.GetPage (printf $.Site.Params.defaultAuthor ) }}
+			{{ with $author.Params.profiles }}
+				{{ $map := (index . ) }}
+					{{ range $key, $val := $map }}
+				<a href="{{ $val }}" title="{{ $.Site.Title }} on {{ $key }}" class="btn btn-neutral btn-icon btn-round">
+				  <i class="fab fa-{{ printf $key }}"></i>
+				</a>
+			{{ end }}
+			{{ end }}
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+				<section id="category-list">
+					<h2 class="d-sm-block d-lg-none text-center mt-3 title">{{ i18n "stories" }}</h2>
+						<div class="card-deck justify-content-center px-3 m-0">
+							<div class="row">
+
+								{{ range where (.Site.GetPage "section" "story").Sections ".Params.options.unlisted" false | intersect (where .Site.Pages "Params.story_featured" "=" true) }}
+								{{ partial "story-card.html" . }}
+								{{ end }}
+
+							</div>
+						</div>
+
+				</section>
+					<div class="blogs-1" id="blogs-1">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10 ml-auto mr-auto">
+									<h2 class="text-center title">{{ i18n "latest_blogposts" }}</h2>
+									<br>
+										{{ $firstposts := first 2 (where (where .Site.RegularPages ".Params.options.unlisted" false) "Section" "!=" "instagram") }}
+										{{ range $i,$p := $firstposts }}
+										{{if not (modBool $i 2)}}
+										<!-- first post -->
+									<div class="card card-plain card-blog">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="card-image">
+													<a href="{{ .Permalink }}">
+													<img class="img img-raised rounded" src="{{- with .Resources.GetMatch "header" -}}
+															{{- $image := .Fill "395x314" -}}{{- $image.RelPermalink -}}{{- else -}}{{- .Site.BaseURL -}}images/fractal_thumb.jpg{{- end -}}" alt="Header image for: {{ .Title }}">
+													</a>
+												</div>
+											</div>
+											<div class="col-md-7">
+													{{ range $index, $category := .Params.categories }}
+													<h6 class="category mt-3"><a class="text-info" title="{{ i18n "category" }} {{ $category}}" href="{{ $.Site.BaseURL }}categories/{{ $category | urlize }}/">{{ $category }}</a></h6>
+													{{ end }}
+													<h3 class="card-title">
+																  <a href="{{ .Permalink }}">{{ .Title }}</a>
+																</h3>
+													<p class="card-description">
+														{{ .Summary | truncate 230 }}
+														<br>
+														<a href="{{ .Permalink }}">{{ i18n "continue_reading" }} </a>
+													</p>
+													<p class="author"> {{- i18n "by" -}} 
+																	<b>
+																		{{ with .Params.author }}
+																			<a href="/about/{{ string .Params.author | urlize }}" itemprop="author" title="{{ .Params.author }}" class="author">{{ . }}</a>
+																		{{ else }}
+																			<a href="{{ .Site.Params.authors.Main.authorlink }}" title="{{ .Site.Params.authors.Main.name }}" class="author">{{ $.Site.Params.authors.Main.name }}</a>
+														{{ end }}</b>, <time class="published text-muted" itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>
+												</p>
+											</div>
+										</div>
+									</div>
+									{{ else }}
+										<!-- second post -->
+											<div class="card card-plain card-blog">
+												<div class="row">
+													<div class="col-md-7">
+														{{ range $index, $category := .Params.categories }}
+														<h6 class="category">
+															<a class="text-danger" title="{{ i18n "category" }} {{ $category}}" href="{{ $.Site.BaseURL }}categories/{{ $category | urlize }}/">{{ $category }}</a>
+														</h6>
+														{{ end }}
+														<h3 class="card-title">
+																	  <a href="{{ .Permalink }}">{{ .Title }}</a>
+																	</h3>
+														<p class="card-description">
+															{{ .Summary | truncate 230 }}
+															<br>
+															<a href="{{ .Permalink }}"> {{ i18n "continue_reading" }} </a>
+														</p>
+														<p class="author">
+															{{- i18n "by" }}
+															<strong>
+															{{- with .Params.author }}
+																<a href="/about/{{ . | urlize }}" itemprop="author" title="{{ . }}" class="author">{{ . }}</a>
+															{{- else }}
+																<a href="{{ .Site.Params.authors.Main.authorlink }}" title="{{ .Site.Params.authors.Main.name }}" class="author">{{ $.Site.Params.authors.Main.name }}</a>
+															{{- end }}
+															</strong>, <time class="published text-muted" itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>
+														</p>
+													</div>
+													<div class="col-md-5">
+														<div class="card-image">
+															<a href="{{ .Permalink }}">
+															<img class="img img-raised rounded" src="{{- with .Resources.GetMatch "header" -}}
+																{{- $image := .Fill "395x314" -}}{{- $image.RelPermalink -}}{{- else -}}{{- .Site.BaseURL -}}images/fractal_thumb.jpg{{- end -}}" alt="Header image for: {{ .Title }}">
+															</a>
+														</div>
+														</div>
+													</div>
+												</div>
+												{{ end }}
+												{{ end }}
+												<!-- second post -->
+											</div>
+										</div><!-- row -->
+									</div>
+								</div>
+							<p class="text-center"><a class="btn btn-primary btn-lg" href="{{ $.Site.BaseURL }}{{ "post" | relLangURL }}" role="button">{{ i18n "read_more_posts"}}</a></p>
+			<div class="separator separator-primary"></div>
+		</div>
+	</div>
+</div>
+{{ end }}

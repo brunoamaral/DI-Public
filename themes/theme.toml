@@ -1,0 +1,12 @@
+name = "Future_Imperfect"
+license = "N/A"
+licenselink = "N/A"
+description = "Future Imperfect template ported as a Hugo theme. Original version at https://pixelarity.com/future-imperfect "
+tags = ["blog"]
+features = ["blog"]
+min_version = 0.17
+
+[author]
+    name = "Bruno Amaral"
+    homepage = "https://brunoamaral.eu"
+

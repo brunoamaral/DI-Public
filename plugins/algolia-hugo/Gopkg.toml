@@ -1,0 +1,28 @@
+required = [
+  "github.com/magefile/mage/mage",
+  "github.com/goreleaser/goreleaser"
+]
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "0.0.1"
+
+[[constraint]]
+  name = "github.com/spf13/viper"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/algolia/algoliasearch-client-go"
+  version = "2.21.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/kyoh86/xdg"
+
+[[constraint]]
+  name = "github.com/apex/log"
+  version = "1.0.0"
