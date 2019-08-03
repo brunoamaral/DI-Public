@@ -5,6 +5,7 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $name := .Params.name }}
 <div class="wrapper">
 <div class="page-header clear-filter page-header-small" filter-color="orange">
 	<div class="page-header-image" data-parallax="true" style="background-image: url({{ partial "header-image" . }}); transform: translate3d(0px, 0px, 0px);">
@@ -13,14 +14,14 @@
 		<div class="photo-container">
 				{{- with .Resources.GetMatch "avatar" -}}
 					{{- if eq .MediaType.SubType "gif" -}}
-						<img class="img img-raised" src="{{- .RelPermalink -}}" alt="{{ i18n "photo_of" }}{{ .Params.name }}" />
+						<img class="img img-raised" src="{{- .RelPermalink -}}" alt="{{ i18n "photo_of" }}{{ $name }}" />
 					{{- else }}
 						{{- $avatar := .Fill "400x400" -}}
-						<img class="img img-raised" src="{{- $avatar.RelPermalink -}}" alt="{{ i18n "photo_of" }}{{ .Params.name }}" />
+						<img class="img img-raised" src="{{- $avatar.RelPermalink -}}" alt="{{ i18n "photo_of" }}{{ $name }}" />
 					{{- end }}
 				{{- end -}}
 		</div>
-		<h3 class="title">{{ .Params.name }}</h3>
+		<h3 class="title">{{ $name }}</h3>
 		{{ with .Params.subtitle }}
 			<p class="category">{{ . }}</p>			
 		{{ end }}
@@ -65,6 +66,20 @@
 						</div>
 				</section>
 			<div class="separator separator-primary"></div>
+{{ $posts := slice }}
+			{{ range where .Site.RegularPages "Type" "post" }}
+				{{ if in .Params.tags  $name }}
+					{{ $posts = $posts | append . }}
+				{{ end }}
+			{{ end }}
+{{ $mentions := $posts | symdiff .Data.Pages }}
+				<h5 class="text-center title">{{ i18n "mentions" }}</h5>
+				<div class="row">
+					{{ range $mentions }}
+						{{ .Render "summary" }}
+					{{ end }}
+				</div>
+
 			</div>
 		</div>
 </div>
